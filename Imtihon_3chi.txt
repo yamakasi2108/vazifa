@@ -1,0 +1,12 @@
+import os
+os.system("cls")
+
+
+soz = input()
+for i in soz:
+    if i.isdigit():
+        print(1)
+        exit()
+    else:
+        print(0)
+        exit()

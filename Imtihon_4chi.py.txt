@@ -1,0 +1,17 @@
+import os
+os.system("cls")
+
+qoshish, ayirish, kopaytirish, bolish, qavs = 0, 0, 0, 0, 0
+amal = input()
+for i in amal:
+    if i == "+":
+        qoshish += 1
+    elif i == "-":
+        ayirish += 1
+    elif i == "*":
+        kopaytirish += 1
+    elif i == "/":
+        bolish += 1
+    elif i == "(":
+        qavs += 1
+print(f" + amali {qoshish} ta, - amali {ayirish} ta, * amali {kopaytirish} ta, / amali {bolish} ta, () amali {qavs} ta")

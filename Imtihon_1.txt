@@ -1,0 +1,5 @@
+print("Hohlagan uzunlikdagi satr kiriting: ")
+soz = input()
+soz1 = list(soz.split())
+for i in soz1:
+    print(i[::-1], end=" ")
